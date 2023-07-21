@@ -1,0 +1,152 @@
+<mxfile host="65bd71144e">
+    <diagram name="Page-1" id="K_V1x3q2pOew1tX25QOR">
+        <mxGraphModel dx="1127" dy="1892" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="Ef_KsjY7aMEo4UhKx-ZT-1" value="LocationManager" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="680" y="390" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="LocationRequest" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="490" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="LocationRequest.Builder" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="540" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="SettingInjectorService" style="rounded=0;whiteSpace=wrap;html=1;spacingLeft=10;align=left;" vertex="1" parent="1">
+                    <mxGeometry x="680" y="590" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="Address" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="40" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="Address" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="90" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Geocoder" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="140" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="GnssAntennaInfo" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="190" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="GnssAntennaInfo.Builder" link="GnssAntennaInfo.Builder" id="9">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="120" y="240" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssAntennaInfo.PhaseCenterOffset" link="GnssAntennaInfo.PhaseCenterOffset" id="10">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="120" y="290" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssAntennaInfo.SphericalCorrections" link="GnssAntennaInfo.SphericalCorrections" id="11">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="120" y="340" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssAutomaticGainControl" link="GnssAntennaInfo.SphericalCorrections" id="12">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="120" y="390" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssAutomaticGainControl.Builder" link="GnssAntennaInfo.SphericalCorrections" id="13">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="120" y="440" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="14" value="GnssCapabilities" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="40" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="&lt;div&gt;GnssCapabilities.Builder&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="90" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <UserObject label="GnssClock" link="GnssAntennaInfo.Builder" id="16">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="400" y="140" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssMeasurement" link="GnssAntennaInfo.PhaseCenterOffset" id="17">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="400" y="190" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;div&gt;GnssMeasurementRequest&lt;/div&gt;" link="GnssAntennaInfo.SphericalCorrections" id="18">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="400" y="240" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssMeasurementRequest.Builder" link="GnssAntennaInfo.SphericalCorrections" id="19">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="400" y="290" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssMeasurementsEvent" link="GnssAntennaInfo.SphericalCorrections" id="20">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="400" y="340" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;span style=&quot;text-align: center;&quot;&gt;GnssMeasurementsEvent.Builder&lt;/span&gt;" link="GnssAntennaInfo.SphericalCorrections" id="22">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="400" y="390" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssMeasurementsEvent.Callback" link="GnssAntennaInfo.SphericalCorrections" id="23">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="400" y="440" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssNavigationMessage" link="GnssAntennaInfo.SphericalCorrections" id="25">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="40" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssNavigationMessage.Callback" link="GnssAntennaInfo.SphericalCorrections" id="26">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="90" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssSignalType" link="GnssAntennaInfo.SphericalCorrections" id="27">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="140" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssStatus" link="GnssAntennaInfo.SphericalCorrections" id="28">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="190" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssStatus.Builder" link="GnssAntennaInfo.SphericalCorrections" id="29">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="240" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="GnssStatus.Callback" link="GnssAntennaInfo.SphericalCorrections" id="30">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="290" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;div&gt;Location&lt;/div&gt;" link="GnssAntennaInfo.SphericalCorrections" id="31">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="340" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <UserObject label="&lt;div&gt;Location&lt;/div&gt;" link="GnssAntennaInfo.SphericalCorrections" id="35">
+                    <mxCell style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;" vertex="1" parent="1">
+                        <mxGeometry x="680" y="440" width="240" height="40" as="geometry"/>
+                    </mxCell>
+                </UserObject>
+                <mxCell id="36" value="&lt;div&gt;Geocoder.GeocodeListener&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="-240" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="&lt;div&gt;GnssAntennaInfo.Listener&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="-190" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="&lt;div&gt;LocationListener&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="-140" width="240" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="&lt;div&gt;OnNmeaMessageListener&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;spacingLeft=10;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="-90" width="240" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
